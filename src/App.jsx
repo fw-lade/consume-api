@@ -4,6 +4,7 @@ import Cards from "./Cards";
 import Blogs from "./Blogs";
 import Post from "./Post";
 import Users from "./Users";
+import Products from "./Products";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/blog" element={<Blogs />} />
           <Route path="/blog/:id" element={<Post />} />
           <Route path="/users" element={<Users />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </BrowserRouter>
     </>

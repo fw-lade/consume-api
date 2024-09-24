@@ -16,6 +16,7 @@
   flex-direction: column;
   gap: 14px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .text {
   padding: 32px;
@@ -147,4 +148,45 @@ gap: 32px;
   padding: 32px;
   background-color: #f2f2f2;
   border-radius: 24px;
+}
+.products{
+  padding: 32px 50px;
+}
+.card-text{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  padding: 18px;
+}
+.card-text h1, .popover h1{
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-text p, .popover p{
+  font-size: 10px;
+  font-weight: 600;
+}
+.card-text span{
+  font-size: 10px;
+}
+.top{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+}
+.card .img{
+  width: 100%;
+  height: 150px;
+}
+.popover{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.im{
+  height: 100px;
+  width: 100px;
 }
