@@ -5,11 +5,13 @@ import Electronics from "./Electronics";
 import Jewelery from "./Jewelery";
 import Men from "./Men";
 import Women from "./Women";
+import AddProduct from "./AddProduct";
 
 const Products = () => {
   return (
     <div>
       <Navbar />
+      {/* <AddProduct /> */}
       <div className="products">
         <Tabs isFitted variant="enclosed">
           <TabList mb="1em">
@@ -20,16 +22,16 @@ const Products = () => {
           </TabList>
           <TabPanels>
             <TabPanel>
-              <Electronics/>
+              <Electronics />
             </TabPanel>
             <TabPanel>
-              <Jewelery/>
+              <Jewelery />
             </TabPanel>
             <TabPanel>
-              <Men/>
+              <Men />
             </TabPanel>
             <TabPanel>
-              <Women/>
+              <Women />
             </TabPanel>
           </TabPanels>
         </Tabs>
